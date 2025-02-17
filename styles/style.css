@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar */
+.navbar-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 20px;
+  z-index: 1000;
+}
+
+.nav-icon {
+  font-size: 20px;
+}
+
+.left-icon img {
+  width: 30px;
+}
+
+.right-icon {
+  background: white;
+  border-radius: 50px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+  content: "";
+  font-family: "Bootstrap-icons";
+  font-size: 14px;
+  color: black;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background: url("../images/hero_section.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 50%;
+  position: absolute;
+  top: 34rem;
+  left: 2rem;
+  transform: translateY(-50%);
+  max-width: 450px;
+  background: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: #666;
+}
+
+.btn-explore {
+  background-color: #f47360;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-explore:hover {
+  border: 1px solid #f47360;
+  color: #f47360;
+  background-color: transparent;
+}
+
+.btn-explore i {
+  margin-right: 5px;
+}
+
+/* Card Section */
+.card-section {
+  background-color: #faf7f7;
+  padding: 10rem 0;
+}
+
+.card {
+  background-color: transparent;
+}
+.card .card-content h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card .card-content p {
+  font-size: 16px;
+}
+
+/* Detail Section */
+
+.details-section {
+  background-color: #faf7f7;
+}
+
+.details-section .d-image img {
+  height: 32px;
+  width: 32px;
+}
+
+/* Slick Section */
+
+.custom-section {
+  padding: 50px 0;
+  background: #faf7f6;
+}
+
+.left-content {
+  padding: 20px;
+}
+
+.carousel-container {
+  overflow: hidden;
+}
+
+.slick-slide {
+  padding: 10px;
+}
+
+.slick-slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.carousel-item-details {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.carousel-item-details h5 {
+  font-weight: bold;
+}
+
+.carousel-item-details p {
+  margin: 0;
+  color: gray;
+}
+
+.carousel-item-details a {
+  color: #f47360;
+  text-decoration: none;
+}
+.slick-prev,
+.slick-next {
+  z-index: 10;
+}
+
+.btn-start {
+  background-color: #f47c5a;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-start:hover {
+  background-color: #e86c4c;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .hero-section {
+    height: 80vh;
+  }
+
+  .hero-content {
+    top: 25rem;
+    max-width: 400px;
+    left: 3rem;
+    height: auto;
+  }
+
+  .card-section {
+    padding: 12rem 0 6rem 0;
+  }
+
+  .custom-section .left-content {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: 70vh;
+  }
+
+  .hero-content {
+    top: 20rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 80%;
+    text-align: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .card-section {
+    padding: 8rem 0 50px 0;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .details-section .col-md-3,
+  .details-section .col-md-4 {
+    margin-bottom: 30px;
+  }
+
+  .custom-section .left-content {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-section {
+    height: 55vh;
+  }
+
+  .hero-content {
+    top: 18rem;
+    padding: 20px;
+    height: auto;
+    width: 100%;
+  }
+
+  .card-section {
+    padding: 6rem 0;
+  }
+
+  .card {
+    text-align: center;
+    padding: 15px !important;
+    align-items: center;
+  }
+
+  .details-section {
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+  }
+
+  footer .col-md-6.text-md-end {
+    text-align: center !important;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero-section {
+    height: 40vh;
+    background-position: right;
+  }
+
+  .details-section {
+    text-align: center;
+  }
+
+  .hero-content {
+    top: 24rem;
+    padding: 15px;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+
+  .card {
+    padding: 10px !important;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-section {
+    padding: 22rem 0 50px 0;
+  }
+
+  footer {
+    padding: 20px 0;
+  }
+}

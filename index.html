@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eazy Camper</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+      <a href="#" class="nav-icon left-icon">
+        <img src="images/logo.svg" alt="Logo" />
+      </a>
+
+      <div class="ms-auto d-flex align-items-center">
+        <div class="nav-icon right-icon dropdown">
+          <a
+            href="#"
+            class="text-dark text-decoration-none dropdown-toggle"
+            id="profileDropdown"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="images/navbar_dropdown.svg"
+              alt="Profile Icon"
+              width="25"
+            />
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="profileDropdown"
+          >
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>
+          Find out how we can
+          <span style="color: #f47360">save your time</span> in Backpacking in
+          Europe
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac amet id
+          eget scelerisque amet etiam in sit commodo.
+        </p>
+        <button class="btn btn-explore">
+          <i class="bi bi-globe"></i> Explore
+        </button>
+      </div>
+    </section>
+
+    <!-- Card Section -->
+    <section class="card-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card p-3 border-0">
+              <img
+                class="pb-3 img-fluid"
+                src="images/card_1.svg"
+                alt="Card 1"
+                width="100%"
+              />
+              <div class="card-content">
+                <h3 class="pt-5">
+                  Promoting your territory <br />
+                  towards foreign tourists
+                </h3>
+                <p class="py-5">
+                  EasyCamper wants to promote the excellence of Italian food and
+                  wine, art, culture and the economy.
+                </p>
+                <p style="color: #f47360">
+                  Discover the places linked to your area that you can link to
+                  your structure
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card p-3 border-0">
+              <img
+                class="pb-3 img-fluid"
+                src="images/card_2.svg"
+                alt="Card 1"
+                width="100%"
+              />
+              <div class="card-content">
+                <h3 class="pt-4">
+                  Additional services designed for <br />
+                  the needs of campers
+                </h3>
+                <p style="padding: 45px 0 16px 0px">
+                  Travelling often means that you dont have time to organise
+                  excursions along your route. EasyCamper takes care of that!
+                </p>
+                <p style="color: #f47360">
+                  Discover the Guided Tours and additional services that you can
+                  link to your structure
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card p-3 border-0">
+              <img
+                class="pb-3 img-fluid"
+                src="images/card_3.svg"
+                alt="Card 1"
+                width="100%"
+              />
+              <div class="card-content">
+                <h3 class="pt-5">
+                  Free online showcase with <br />
+                  promotion in Italy and abroad
+                </h3>
+                <p class="py-3">
+                  Forget about the time and money spent on creating your own
+                  website or e-commerce system for bookings.
+                </p>
+                <p style="color: #f47360">
+                  Easycamper creates your showcase. Discover the terms and
+                  conditions for joining the Network
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details Section -->
+    <section class="details-section py-2">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-lg-start text-sm-center fw-bold pb-5">
+            Making your facility known is our priority
+          </h1>
+          <div class="col-md-3">
+            <div class="card d-image p-3 border-0">
+              <img class="img-fluid"
+                src="images/details-card-icon.svg"
+                alt="Card 1"
+                width="100%"
+              />
+              <div class="card-content">
+                <h3 class="pt-5">Choose the type of stop</h3>
+                <p class="py-3">
+                  Select the type of stopover you are ordering from Equipped
+                  Area, Camping and Agricamping
+                </p>
+                <p style="color: #f47360; cursor: pointer">Show me more</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card d-image p-3 border-0">
+              <img class="img-fluid"
+                src="images/details-card-icon1.svg"
+                alt="Card 1"
+                width="100%"
+              />
+              <div class="card-content">
+                <h3 class="pt-5">Describe your structure</h3>
+                <p class="py-3">
+                  Describe thee property, location and nearby attractions
+                </p>
+                <p class="pt-5" style="color: #f47360; cursor: pointer">
+                  Show me more
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card d-image p-3 border-0">
+              <img class="img-fluid"
+                src="images/details-card-icon2.svg"
+                alt="Card 1"
+                width="100%"
+              />
+              <div class="card-content">
+                <h3 class="pt-5">Build your showcase</h3>
+                <p class="py-3">
+                  Add photos, videos and descriptions Define the price of each
+                  type of that make your propety truly
+                </p>
+                <p class="pt-4" style="color: #f47360; cursor: pointer">
+                  Show me more
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card d-image p-3 border-0">
+              <img class="img-fluid"
+                src="images/details-card-icon3.svg"
+                alt="Card 1"
+                width="100%"
+              />
+              <div class="card-content">
+                <h3 class="pt-5">Prices and Availability</h3>
+                <p class="pt-3" style="padding-bottom: 40px">
+                  pitch and configure the availablity calendar.
+                </p>
+                <p class="pt-5" style="color: #f47360; cursor: pointer">
+                  Show me more
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slick Section -->
+    <section class="custom-section py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-md-12 left-content">
+            <h2>Join the community campervan sites managers.</h2>
+            <p>
+              Discover all the equipped areas in Italy. Find the shop with all
+              the services for you and your camper.
+            </p>
+            <button class="btn btn-explore">▶ Start</button>
+          </div>
+          <div class="col-lg-8 col-md-12 carousel-container">
+            <div class="slick-carousel">
+              <div>
+                <img class="img-fluid" src="images/Rectangle 5.svg" alt="Image 1" width="100%" />
+                <div class="carousel-item-details">
+                  <h5>Lucciano</h5>
+                  <p>Rome</p>
+                  <a href="#">View the Site</a>
+                </div>
+              </div>
+              <div>
+                <img class="img-fluid" src="images/Rectangle 6.svg" alt="Image 2" width="100%" />
+                <div class="carousel-item-details">
+                  <h5>Cremonesi</h5>
+                  <p>Florence</p>
+                  <a href="#">View the Site</a>
+                </div>
+              </div>
+              <div>
+                <img class="img-fluid" src="images/Rectangle 7.svg" alt="Image 3" width="100%" />
+                <div class="carousel-item-details">
+                  <h5>Beneventi</h5>
+                  <p>Venice</p>
+                  <a href="#">View the Site</a>
+                </div>
+              </div>
+              <div>
+                <img class="img-fluid" src="images/Rectangle 5.svg" alt="Image 1" width="100%" />
+                <div class="carousel-item-details">
+                  <h5>Lucciano</h5>
+                  <p>Rome</p>
+                  <a href="#">View the Site</a>
+                </div>
+              </div>
+              <div>
+                <img class="img-fluid" src="images/Rectangle 6.svg" alt="Image 2" width="100%" />
+                <div class="carousel-item-details">
+                  <h5>Cremonesi</h5>
+                  <p>Florence</p>
+                  <a href="#">View the Site</a>
+                </div>
+              </div>
+              <div>
+                <img class="img-fluid" src="images/Rectangle 7.svg" alt="Image 3" width="100%" />
+                <div class="carousel-item-details">
+                  <h5>Beneventi</h5>
+                  <p>Venice</p>
+                  <a href="#">View the Site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--2nd Details Section -->
+    <section class="details-section py-5">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-lg-start text-sm-center fw-bold pb-5">
+            Our Advantages
+          </h1>
+          <div class="col-md-4">
+            <div class="card d-image p-3 border-0">
+              <img class="img-fluid"
+                src="images/WCR_Compare2-HighlightDiff-cont.svg"
+                alt="Card 1"
+                width="100%"
+              />
+              <div class="card-content">
+                <h3 class="pt-5">Convenience and Transparency</h3>
+                <p class="py-3">
+                  You don’t have to find out later or only after camenierk and
+                  trarsparent Easyamper ratains pliacas and beautias of your
+                  tariaary and halpin a fixed commission on each transaction of
+                  5
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card d-image p-3 border-0">
+              <img class="img-fluid" src="images/library_books.svg" alt="Card 1" width="100%" />
+              <div class="card-content">
+                <h3 class="pt-5">Digital marketing and editorial support</h3>
+                <p class="py-3">
+                  You don’t have to find out later or only after camenierk and
+                  trarsparent Easyamper ratains pliacas and beautias of your
+                  tariaary and halpin a fixed commission on each transaction of
+                  5
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card d-image p-3 border-0">
+              <img class="img-fluid" src="images/WCR_Compare-HSV.svg" alt="Card 1" width="100%" />
+              <div class="card-content">
+                <h3 class="pt-5">Community of services dedicated to campers</h3>
+                <p class="py-3">
+                  You don’t have to find out later or only after camenierk and
+                  trarsparent Easyamper ratains pliacas and beautias of your
+                  tariaary and halpin a fixed commission on each transaction of
+                  5
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h5 class="fw-bold mb-4">Easy Camper</h5>
+              <p class="fs-3 fw-bold mb-5">When <br> Passion <br> Meets <br> Comfort.</p>
+            </div>
+            <div class="col-md-3">
+              <h6 class="fw-bold mb-4">Discover the Network</h6>
+              <ul class="list-unstyled mb-5">
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Where to shop</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Tour Guided</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Our Tours</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">About Us</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h6 class="fw-bold mb-4">Become a Manager</h6>
+              <ul class="list-unstyled mb-5">
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Join your Pairing</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Offer your Service</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Are you a guide?</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h6 class="fw-bold mb-4">Assistance</h6>
+              <ul class="list-unstyled mb-5">
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Support Center</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">FAQs</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Cancellation Options</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Reliability and Security</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <div class="row pt-4">
+            <div class="col-md-6">
+              <p class="text-muted mb-0">EazyCamper. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <a href="#" class="text-muted me-3 text-decoration-none">About</a>
+              <a href="#" class="text-muted me-3 text-decoration-none">Site Map</a>
+              <a href="#" class="text-muted me-3 text-decoration-none">Terms</a>
+              <a href="#" class="text-muted me-3 text-decoration-none">Privacy Policy</a>
+              <a href="#" class="text-muted text-decoration-none">Teams</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+
+    <script>
+      $(document).ready(function () {
+        $(".slick-carousel").slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          dots: false,
+          arrows: false,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                dots: true,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>
